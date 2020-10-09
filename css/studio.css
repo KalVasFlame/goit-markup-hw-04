@@ -57,6 +57,39 @@
   line-height: 1.71em;
   letter-spacing: 0.03em;
 }
+.feature-list .list-item::before {
+  content: "";
+  display: inline-flex;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--btn-bg-color);
+}
+.feature-list .attention::before {
+  content: "";
+  background-image: url(../img/feature-1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.feature-list .punctuality::before {
+  content: "";
+  background-image: url(../img/feature-2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.feature-list .planning::before {
+  content: "";
+  background-image: url(../img/feature-3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.feature-list .technologies::before {
+  content: "";
+  background-image: url(../img/feature-4.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /* Feature */
 /* What we do */
 .what-we-do {
@@ -125,7 +158,42 @@
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
+}
+.social-link {
+  display: inline-flex;
   margin-bottom: 30px;
+}
+.social-link a {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+.social-links .social-link:hover {
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+.social-link .instagram {
+  background-size: 20px;
+  background-image: url(../img/instagram.svg);
+}
+.social-link .twitter {
+  background-size: 20px 16px;
+  background-image: url(../img/twitter.svg);
+}
+.social-link .facebook {
+  background-size: 10px 20px;
+  background-image: url(../img/facebook.svg);
+}
+.social-link .linkedin {
+  background-size: 20px 20px;
+  background-image: url(../img/linkedin.svg);
+}
+.social-links .social-link + .social-link {
+  margin-left: 10px;
 }
 /* Our team */
 /* Sections */

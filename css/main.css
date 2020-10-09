@@ -164,11 +164,37 @@ button:focus {
 .auth-nav .list + .list {
   margin-left: 50px;
 }
+.list.mail::before {
+  content: "";
+  display: inline-flex;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  background-size: 16px 12px;
+  background-color: var(--major-white-color);
+  background-image: url(../img/mail.svg);
+  background-position: center;
+}
+.list.tel::before {
+  content: "";
+  display: inline-flex;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  background-size: 10px 16px;
+  background-color: var(--major-white-color);
+  background-image: url(../img/phone.svg);
+  background-position: center;
+}
+
 /* Header */
 /* Footer */
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.footer .container {
+  display: flex;
 }
 .footer-logo {
   display: inline-block;
@@ -201,4 +227,25 @@ button:focus {
 .footer-link.mail {
   margin-bottom: 9px;
 }
+.income {
+  color: var(--major-white-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+.footer-social-links {
+  margin-left: 70px;
+}
+.footer-social-links .social-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.footer-social-links .social-link + .social-link {
+  margin-left: 10px;
+}
+
 /* Footer */
