@@ -1,0 +1,154 @@
+/* Sections */
+/* Hero */
+
+.hero {
+  /* outline: 1px solid red; */
+  text-align: center;
+  padding-bottom: 94px;
+  padding-top: 200px;
+}
+.hero-title {
+  color: var(--major-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.hero-btn {
+  color: var(--major-white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87em;
+  letter-spacing: 0.06em;
+  margin-bottom: 200px;
+}
+/* Hero */
+/* Feature */
+.feature {
+  /* outline: 1px solid yellow; */
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.feature-title {
+  display: none;
+}
+.feature-list {
+  display: flex;
+}
+
+.feature-list .list-item {
+  width: 270px;
+}
+.feature-list .list-item + .list-item {
+  margin-left: 30px;
+}
+
+.feature-list h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.feature-list p {
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+}
+/* Feature */
+/* What we do */
+.what-we-do {
+  padding-bottom: 94px;
+  /* outline: 1px solid green; */
+}
+.what-we-do-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.what-we-do-list {
+  display: flex;
+}
+.what-we-do-list .list-item + .list-item {
+  margin-left: 30px;
+}
+
+/* What we do */
+/* Our team */
+.our-team {
+  padding-bottom: 94px;
+  padding-top: 94px;
+  text-align: center;
+  background-color: var(--second-minor-bg-color);
+  /* outline: 1px solid blue; */
+}
+
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.our-team-list {
+  display: flex;
+}
+
+.our-team-list .list-item + .list-item {
+  margin-left: 30px;
+}
+.our-team-list .list-item {
+  width: 270px;
+  background: var(--major-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-list .teammate-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18em;
+  letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-bottom: 10px;
+  margin-right: auto;
+}
+.our-team-list .teammate-job {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
+}
+/* Our team */
+/* Sections */
+
+/* bnt */
+.btn.main {
+  display: inline-block;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87em;
+  text-align: center;
+  color: var(--major-white-color);
+  background-color: var(--accent-color);
+  min-width: 200px;
+  padding: 10px 32px;
+  margin-bottom: 200px;
+  border: 1px solid transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+/* bnt */
+
+/* footer {
+  outline: 1px solid pink;
+} */
