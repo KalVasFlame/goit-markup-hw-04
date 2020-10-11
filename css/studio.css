@@ -163,14 +163,15 @@
 .social-links {
   display: inline-flex;
   margin-bottom: 30px;
-  /* width: 44px;
-  height: 44px; */
   border-radius: 50%;
 }
 
 .icon-link {
   width: 44px;
   height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-link:hover {
@@ -185,7 +186,7 @@
 .social-icon {
   fill: var(--social-icon-main);
 }
-.social-icon:hover {
+.social-link:hover .social-icon {
   fill: var(--major-white-color);
 }
 .instagram-icon {
@@ -205,36 +206,6 @@
   width: 20px;
   height: 20px;
 }
-
-/*
-.social-link a {
-  display: inline-block;
-  width: 44px;
-  height: 44px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
-}
-.social-links .social-link:hover {
-  background-color: var(--accent-color);
-  border-radius: 50%;
-}
-.social-link .instagram {
-  background-size: 20px;
-  background-image: url(../img/icons/instagram.svg);
-}
-.social-link .twitter {
-  background-size: 20px 16px;
-  background-image: url(../img/icons/twitter.svg);
-}
-.social-link .facebook {
-  background-size: 10px 20px;
-  background-image: url(../img/icons/facebook.svg);
-}
-.social-link .linkedin {
-  background-size: 20px 20px;
-  background-image: url(../img/icons/linkedin.svg);
-}*/
 /* Our team */
 /* Sections */
 
