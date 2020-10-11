@@ -117,7 +117,8 @@ button:focus {
   letter-spacing: 0.02em;
 }
 
-.site-nav .link {
+.site-nav .link,
+.auth-nav .link {
   color: var(--title-text-color);
 }
 
@@ -126,14 +127,7 @@ button:focus {
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-
-.auth-nav .link {
-  color: var(--major-text-color);
-}
-
+.site-nav .link:focus,
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: var(--accent-color);
@@ -153,6 +147,7 @@ button:focus {
 
 .auth-nav {
   margin-left: auto;
+  align-items: center;
 }
 
 .site-nav,
@@ -164,7 +159,19 @@ button:focus {
 .auth-nav .list + .list {
   margin-left: 50px;
 }
-.list.mail::before {
+
+.tel-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.tel-phone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+/* .list.mail::before {
   content: "";
   display: inline-flex;
   width: 16px;
@@ -172,10 +179,10 @@ button:focus {
   margin-right: 10px;
   background-size: 16px 12px;
   background-color: var(--major-white-color);
-  background-image: url(../img/mail.svg);
+  background-image: url(../img/icons/mail.svg);
   background-position: center;
-}
-.list.tel::before {
+} */
+/* .list.tel::before {
   content: "";
   display: inline-flex;
   width: 10px;
@@ -183,9 +190,8 @@ button:focus {
   margin-right: 10px;
   background-size: 10px 16px;
   background-color: var(--major-white-color);
-  background-image: url(../img/phone.svg);
-  background-position: center;
-}
+  background-image: url(../img/icons/phone.svg);
+} */
 
 /* Header */
 /* Footer */
