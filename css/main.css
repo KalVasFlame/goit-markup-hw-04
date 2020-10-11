@@ -196,6 +196,54 @@ button:focus {
 } */
 
 /* Header */
+/* Main */
+.social-links {
+  display: inline-flex;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+
+.icon-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-link:hover {
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+.social-links .social-link + .social-link {
+  margin-left: 10px;
+}
+
+.social-icon {
+  fill: var(--social-icon-main);
+}
+.social-link:hover .social-icon {
+  fill: var(--major-white-color);
+}
+.instagram-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.twitter-icon {
+  width: 20px;
+  height: 16px;
+}
+.facebook-icon {
+  width: 10px;
+  height: 20px;
+}
+.linkedin-icon {
+  width: 20px;
+  height: 20px;
+}
+/* Main */
 /* Footer */
 .footer {
   padding-top: 60px;
