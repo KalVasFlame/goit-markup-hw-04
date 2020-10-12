@@ -6,6 +6,9 @@
   text-align: center;
   padding-bottom: 94px;
   padding-top: 200px;
+  background-image: url(../img/hero/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hero-title {
   color: var(--major-white-color);
