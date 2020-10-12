@@ -6,7 +6,7 @@
   text-align: center;
   padding-bottom: 94px;
   padding-top: 200px;
-  background-image: url(../img/hero/hero-img.jpg);
+  background-image: url(../img/hero/img-overlay.svg), url(../img/hero/hero-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
